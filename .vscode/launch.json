@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "preLaunchTask": "cargo build",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/target/thumbv7m-none-eabi/debug/{{project-name}}",
+            "name": "Debug (OpenOCD)",
+            "device": "STM32F103RB",
+            "configFiles": [
+                "board/st_nucleo_f103rb.cfg"
+            ]
+        }
+    ]
+}
