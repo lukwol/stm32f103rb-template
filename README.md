@@ -16,7 +16,7 @@
 
 ## Usage
 
-cargo generate --git https://github.com/lukwol/stm32f103rb-template --name=app
+`cargo generate --git https://github.com/lukwol/stm32f103rb-template --name=app`
 
 ## License
 
