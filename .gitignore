@@ -3,7 +3,3 @@
 .gdb_history
 Cargo.lock
 target/
-
-.vscode/*
-!.vscode/launch.json
-!.vscode/tasks.json
